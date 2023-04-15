@@ -1,6 +1,3 @@
-from typing import Optional
-
-
 def validate_params(text: str, shift: int):
     if not isinstance(text, str):
         raise TypeError("Wrong type of text")
@@ -9,9 +6,12 @@ def validate_params(text: str, shift: int):
     if shift < 0 or shift > 25:
         raise ValueError("Shift should be between 0 and 25")
     if text is None or text == "":
-        raise ValueError("Text should be not empty")
+        raise ValueError("Text should be not empty or none")
     if not text.strip():
         raise ValueError("Text should not contain only spaces")
+    for char in text:
+        if char.isalpha() and "а" <= char <= "я" or "А" <= char <= "Я":
+            raise ValueError("Cyrillic characters is not supported")
 
 
 def encrypting(text: str, shift: int) -> str:
@@ -20,7 +20,10 @@ def encrypting(text: str, shift: int) -> str:
         encrypt_text = []
         for symbol in text:
             if symbol.isalpha():
-                shifted_symbol = chr((ord(symbol) - ord("A") + shift) % 26 + ord("A"))
+                if symbol.islower():
+                    shifted_symbol = chr((ord(symbol) - ord("a") + shift) % 26 + ord("a"))
+                else:
+                    shifted_symbol = chr((ord(symbol) - ord("A") + shift) % 26 + ord("A"))
                 encrypt_text.append(shifted_symbol)
             elif symbol.isdigit():
                 shifted_symbol = chr((ord(symbol) - ord("0") + shift) % 10 + ord("0"))
@@ -33,10 +36,10 @@ def encrypting(text: str, shift: int) -> str:
         return f"Error: {e}"
 
 
-def decryption_caesar(text: str, shift: int) -> Optional[str]:
+def decryption_caesar(text: str, shift: int) -> str:
     pass
 
 
-result = encrypting("Window shopper!@#$", 4)
+result = encrypting("Прикинь", 2)
 print(result)
 
