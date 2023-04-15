@@ -1,3 +1,15 @@
+commit dd3dedb799c9f9994913a008504d18b2ea2107c9
+Author: samsegomof <wemagonof91@gmail.com>
+Date:   Sun Apr 16 04:16:27 2023 +0500
+
+    Moved the parameter validation function to a separate one.
+
+commit 273b0b053a4f32acb25ef34d5b80f610be3fa76a
+Author: samsegomof <wemagonof91@gmail.com>
+Date:   Sun Apr 16 04:08:28 2023 +0500
+
+    update CHANGELOG.md
+
 commit f58535af154f8f71ceb537c0b61f0854f2fc6d64
 Author: samsegomof <wemagonof91@gmail.com>
 Date:   Sun Apr 16 04:06:59 2023 +0500
