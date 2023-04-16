@@ -14,7 +14,7 @@ commit 21fa869d0c9c628eaf02f2c9e9900fa28549be4f
 Author: samsegomof <wemagonof91@gmail.com>
 Date:   Sun Apr 16 16:44:32 2023 +0500
 
-    Add run.py for hadle checking and update README.md
+    Add run.py for handle checking and update README.md
 
 commit 771ca1732a14cb23f1088bd7f01e3b9689c49470
 Author: samsegomof <wemagonof91@gmail.com>
