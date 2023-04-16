@@ -1,3 +1,15 @@
+commit 9a569717dff5b0c4250279a3521d61fa4a0a40a6
+Author: samsegomof <wemagonof91@gmail.com>
+Date:   Mon Apr 17 03:13:29 2023 +0500
+
+    Add two tests for check if shift is None
+
+commit 03a09ac7f2d70cf6110c2c210f33f83671f1812b
+Author: samsegomof <wemagonof91@gmail.com>
+Date:   Mon Apr 17 01:52:50 2023 +0500
+
+    update CHANGELOG.md
+
 commit d8a351779655789cdc6509a72d0daf556a108a85
 Author: samsegomof <wemagonof91@gmail.com>
 Date:   Mon Apr 17 01:52:01 2023 +0500
