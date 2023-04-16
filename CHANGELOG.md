@@ -1,3 +1,15 @@
+commit 367efa66d977a0f4b0c10b38989ee135c2660836
+Author: samsegomof <wemagonof91@gmail.com>
+Date:   Sun Apr 16 16:14:50 2023 +0500
+
+    finnaly write decryption func and write tests for decrypt func, rename utils to validator, fix bags
+
+commit f1f18dcae195b3eaf851734af90452dbaa7dd354
+Author: samsegomof <wemagonof91@gmail.com>
+Date:   Sun Apr 16 04:17:42 2023 +0500
+
+    Update CHANGELOG.md
+
 commit dd3dedb799c9f9994913a008504d18b2ea2107c9
 Author: samsegomof <wemagonof91@gmail.com>
 Date:   Sun Apr 16 04:16:27 2023 +0500
