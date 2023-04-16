@@ -1,3 +1,21 @@
+commit 21fa869d0c9c628eaf02f2c9e9900fa28549be4f
+Author: samsegomof <wemagonof91@gmail.com>
+Date:   Sun Apr 16 16:44:32 2023 +0500
+
+    Add run.py for hadle checking and update README.md
+
+commit 771ca1732a14cb23f1088bd7f01e3b9689c49470
+Author: samsegomof <wemagonof91@gmail.com>
+Date:   Sun Apr 16 16:18:30 2023 +0500
+
+    Update README.md
+
+commit 73f13a78c2a3675b1ca3216c1bc0c64500c46383
+Author: samsegomof <wemagonof91@gmail.com>
+Date:   Sun Apr 16 16:15:31 2023 +0500
+
+    update CHANGELOG.md
+
 commit 367efa66d977a0f4b0c10b38989ee135c2660836
 Author: samsegomof <wemagonof91@gmail.com>
 Date:   Sun Apr 16 16:14:50 2023 +0500
