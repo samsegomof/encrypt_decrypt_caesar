@@ -1,3 +1,21 @@
+commit 47a280c13734f7c8eb214b545362007e735e87d9
+Author: samsegomof <wemagonof91@gmail.com>
+Date:   Sun Apr 16 18:03:58 2023 +0500
+
+    Add docstrings and comments, update README.md and CHANGELOG.md
+
+commit 9b252a7914babd9ffa2f976887f9c19f4b7243e3
+Author: samsegomof <wemagonof91@gmail.com>
+Date:   Sun Apr 16 17:04:03 2023 +0500
+
+    update CHANGELOG.md
+
+commit 2d52058c91261e4f61b52d2fd89872ba8e9738e9
+Author: samsegomof <wemagonof91@gmail.com>
+Date:   Sun Apr 16 17:02:58 2023 +0500
+
+    update CHANGELOG.md
+
 commit fd89824c8d065e84023a7ed52ac806d61b0f2792
 Author: samsegomof <wemagonof91@gmail.com>
 Date:   Sun Apr 16 17:02:09 2023 +0500
@@ -14,7 +32,7 @@ commit 21fa869d0c9c628eaf02f2c9e9900fa28549be4f
 Author: samsegomof <wemagonof91@gmail.com>
 Date:   Sun Apr 16 16:44:32 2023 +0500
 
-    Add run.py for handle checking and update README.md
+    Add run.py for hadle checking and update README.md
 
 commit 771ca1732a14cb23f1088bd7f01e3b9689c49470
 Author: samsegomof <wemagonof91@gmail.com>
