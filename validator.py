@@ -3,7 +3,7 @@ from typing import Any
 from constants import SPEC_CHARS
 
 
-def validate_params(text: str, shift: int) -> Any:
+def validate_params(text: str, shift: int) -> Any:  # Возвращает Any только лишь чтобы mypy не ругался
     """
     Функция для проверки параметров и обработки ошибок
     :param text: строка для шифрования/дешифрования
