@@ -11,8 +11,9 @@ def run():
         print("Выберете режим:\n"
               "E - шифрования\n"
               "D - дешифрования\n"
-              "Exit, exit, - для завершения\n")
+              "Q - для завершения\n")
         choose = input()
+
         if choose == "E" or choose == "e":
             try:
                 text = input("Введите текст для шифрования:\n")
@@ -30,7 +31,7 @@ def run():
             except Exception as e:
                 return e
 
-        elif choose in ["exit", "Exit"]:
+        elif choose in ["Q", "q"]:
             print("До новых встреч!")
             break
 

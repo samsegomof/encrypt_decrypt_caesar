@@ -3,7 +3,7 @@ from typing import Optional
 from validator import validate_params
 
 
-def encrypting(text: str, shift: int) -> str:
+def encrypting(text: str, shift: Optional[int]) -> str:
     """
     Функция шифрования методом шифра Цезаря
     :param text: исходная строка для шифрования

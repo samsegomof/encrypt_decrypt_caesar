@@ -199,3 +199,21 @@ def test_decrypt_for_cyrillic_chars(text, shift):
     result = decrypting(text, shift)
 
     assert expected == result
+
+
+@pytest.mark.parametrize("text", ["sometext"])
+@pytest.mark.parametrize("shift", [None])
+def test_encrypt_for_none_shift(text, shift):
+    expected = "Error: Wrong type of shift"
+    result = encrypting(text, shift)
+
+    assert expected == result
+
+
+@pytest.mark.parametrize("text", ["sometext"])
+@pytest.mark.parametrize("shift", [None])
+def test_decrypt_for_none_shift(text, shift):
+    expected = "Error: Wrong type of shift"
+    result = decrypting(text, shift)
+
+    assert expected == result
