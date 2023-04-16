@@ -1,3 +1,15 @@
+commit fd89824c8d065e84023a7ed52ac806d61b0f2792
+Author: samsegomof <wemagonof91@gmail.com>
+Date:   Sun Apr 16 17:02:09 2023 +0500
+
+    Added the ability to select a mode in a run.py and complete the execution with stop or exit command
+
+commit d484769d87ae4a27eb9660c05cf03dac74aa51a6
+Author: samsegomof <wemagonof91@gmail.com>
+Date:   Sun Apr 16 16:45:10 2023 +0500
+
+    update CHANGELOG
+
 commit 21fa869d0c9c628eaf02f2c9e9900fa28549be4f
 Author: samsegomof <wemagonof91@gmail.com>
 Date:   Sun Apr 16 16:44:32 2023 +0500
